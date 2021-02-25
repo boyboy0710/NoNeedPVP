@@ -32,10 +32,7 @@ public class Commands  implements TabExecutor {
         king.setItemMeta(king_meta);
 
         if (cmd.getName().equalsIgnoreCase("NoNeedpvp")) {
-            if (args.length == 0) {
-                p.sendMessage("말그대로 쓸모없는 pvp입니다");
-                p.sendMessage("직업 확인 : NoNeedpvp class");
-            }
+
             if (args[0].equalsIgnoreCase("class")) {
                 if (args[1].equalsIgnoreCase("Vindicator")) {
                     p.sendMessage("직업:변명자");
